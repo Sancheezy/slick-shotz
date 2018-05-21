@@ -6,3 +6,443 @@ Author URI:
 Description: Custom Store front theme for Slick Shotz
 Version: 1.0
 */
+/* line 5, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* variables.scss */
+/* buttons.scss */
+/* line 2, sass/_partials/_buttons.scss */
+.button {
+  display: block;
+  padding: 8px 16px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+
+/* line 9, sass/_partials/_buttons.scss */
+.add_to_cart_button, .cta-button {
+  font-weight: 700;
+  padding: 16px 12px;
+  background: #ff6600;
+  color: #ffffff;
+}
+/* line 14, sass/_partials/_buttons.scss */
+.add_to_cart_button:hover, .cta-button:hover {
+  background: #ff7421;
+}
+
+/* columns.scss */
+/* line 2, sass/_partials/_columns.scss */
+.column {
+  vertical-align: top;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 8, sass/_partials/_columns.scss */
+.col-md-12 {
+  width: 100%;
+}
+
+/* line 11, sass/_partials/_columns.scss */
+.col-md-11 {
+  width: 91.66666667%;
+}
+
+/* line 14, sass/_partials/_columns.scss */
+.col-md-10 {
+  width: 83.33333333%;
+}
+
+/* line 17, sass/_partials/_columns.scss */
+.col-md-9 {
+  width: 75%;
+}
+
+/* line 20, sass/_partials/_columns.scss */
+.col-md-8 {
+  width: 66.66666667%;
+}
+
+/* line 23, sass/_partials/_columns.scss */
+.col-md-7 {
+  width: 57.33333333%;
+}
+
+/* line 26, sass/_partials/_columns.scss */
+.col-md-6 {
+  width: 49%;
+}
+
+/* line 29, sass/_partials/_columns.scss */
+.col-md-5 {
+  width: 41.66666667%;
+}
+
+/* line 32, sass/_partials/_columns.scss */
+.straight-sale-deets {
+  width: 40.66666667%;
+}
+
+/* line 35, sass/_partials/_columns.scss */
+.col-md-4 {
+  width: 33%;
+}
+
+/* line 38, sass/_partials/_columns.scss */
+.col-md-3 {
+  width: 24.65%;
+}
+
+/* line 41, sass/_partials/_columns.scss */
+.col-md-2 {
+  width: 15.66666667%;
+}
+
+/* line 44, sass/_partials/_columns.scss */
+.col-md-1 {
+  width: 8.33333333%;
+}
+
+/* navigation.scss */
+/* line 2, sass/_partials/_navigation.scss */
+.main-nav {
+  height: 40px;
+}
+/* line 6, sass/_partials/_navigation.scss */
+.main-nav .logo {
+  position: relative;
+  top: 5px;
+}
+/* line 10, sass/_partials/_navigation.scss */
+.main-nav li {
+  display: inline-block;
+  width: 15%;
+  line-height: 40px;
+}
+
+/* spacing.scss */
+/* line 4, sass/_partials/_spacing.scss */
+.padding-horizontal-15px {
+  padding: 0 15px;
+}
+
+/* line 7, sass/_partials/_spacing.scss */
+.padding-vertical-1 {
+  padding: .25em 0;
+}
+
+/* line 10, sass/_partials/_spacing.scss */
+.padding-vertical-2 {
+  padding: .5em 0;
+}
+
+/* line 13, sass/_partials/_spacing.scss */
+.padding-vertical-3 {
+  padding: .75em 0;
+}
+
+/* line 16, sass/_partials/_spacing.scss */
+.padding-vertical-4 {
+  padding: 1em 0;
+}
+
+/* line 20, sass/_partials/_spacing.scss */
+.mb-1 {
+  margin-bottom: .25em;
+}
+
+/* line 23, sass/_partials/_spacing.scss */
+.mb-2 {
+  margin-bottom: .5em;
+}
+
+/* line 26, sass/_partials/_spacing.scss */
+.mb-3 {
+  margin-bottom: .75em;
+}
+
+/* line 29, sass/_partials/_spacing.scss */
+.mb-4 {
+  margin-bottom: 1em;
+}
+
+/* line 33, sass/_partials/_spacing.scss */
+.spacer-5 {
+  height: 5px;
+}
+
+/* line 36, sass/_partials/_spacing.scss */
+.spacer-10 {
+  height: 10px;
+}
+
+/* line 39, sass/_partials/_spacing.scss */
+.spacer-15 {
+  height: 15px;
+}
+
+/* line 42, sass/_partials/_spacing.scss */
+.spacer-30 {
+  height: 30px;
+}
+
+/* structure.scss */
+/* line 2, sass/_partials/_structure.scss */
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'helvetica', 'verdana', 'arial', sans-serif;
+  color: #696969;
+}
+
+/* line 7, sass/_partials/_structure.scss */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  position: relative;
+}
+
+/* line 14, sass/_partials/_structure.scss */
+.img-responsive,
+.woocommerce img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+/* line 21, sass/_partials/_structure.scss */
+.block {
+  display: block;
+}
+
+/* line 24, sass/_partials/_structure.scss */
+.visible-xs {
+  display: none !important;
+}
+
+/* typography.scss */
+/* line 2, sass/_partials/_typography.scss */
+h1 {
+  font-size: 36px;
+}
+
+/* line 5, sass/_partials/_typography.scss */
+h2 {
+  font-size: 30px;
+}
+
+/* line 8, sass/_partials/_typography.scss */
+h3 {
+  font-size: 24px;
+}
+
+/* line 11, sass/_partials/_typography.scss */
+h4 {
+  font-size: 18px;
+}
+
+/* line 14, sass/_partials/_typography.scss */
+p {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+/* line 18, sass/_partials/_typography.scss */
+a {
+  text-decoration: none;
+  color: #696969;
+  outline: none;
+}
+
+/* line 23, sass/_partials/_typography.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 26, sass/_partials/_typography.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 29, sass/_partials/_typography.scss */
+.bold {
+  font-weight: 700;
+}
+
+/* colors.scss */
+/* line 2, sass/_partials/_colors.scss */
+.white-text {
+  color: #ffffff;
+}
+
+/* line 5, sass/_partials/_colors.scss */
+.orange-text {
+  color: #ff6600;
+}
+
+/* line 8, sass/_partials/_colors.scss */
+.visa-blue {
+  color: #1661A3;
+}
+
+/* line 11, sass/_partials/_colors.scss */
+.paypal-blue {
+  color: #009BE1;
+}
+
+/* line 14, sass/_partials/_colors.scss */
+.amazon-orange {
+  color: #FFA22D;
+}
+
+/* line 17, sass/_partials/_colors.scss */
+.amex-blue {
+  color: #37A6D3;
+}
+
+/* line 20, sass/_partials/_colors.scss */
+.mc-blue {
+  color: #4A67C5;
+}
+
+/* line 23, sass/_partials/_colors.scss */
+.discover {
+  color: #F87800;
+}
+
+/* line 26, sass/_partials/_colors.scss */
+.fa-star {
+  color: #FFB900;
+}
+
+/* line 30, sass/_partials/_colors.scss */
+.lt-grey-bg {
+  background: #F9F7F6;
+}
+
+/* line 33, sass/_partials/_colors.scss */
+.wood-bg {
+  background: url(http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/black-wood-bg.jpg) top left;
+}
+
+/* lists.scss */
+/* line 2, sass/_partials/_lists.scss */
+.payment-icons {
+  height: 28px;
+}
+/* line 5, sass/_partials/_lists.scss */
+.payment-icons .fa {
+  font-size: 1.5em;
+}
+/* line 8, sass/_partials/_lists.scss */
+.payment-icons li {
+  display: inline-block;
+  width: 3%;
+}
+/* line 11, sass/_partials/_lists.scss */
+.payment-icons li:last-child {
+  width: 13%;
+  font-size: 1.3rem;
+  vertical-align: top;
+  line-height: 24px;
+}
+
+/* line 23, sass/_partials/_lists.scss */
+.atf .benefits li {
+  font-size: 1.4rem;
+  display: inline-flex;
+  line-height: 1.2em;
+}
+/* line 27, sass/_partials/_lists.scss */
+.atf .benefits li:before {
+  font-family: "FontAwesome";
+  content: "\f058";
+  display: inline-block;
+  color: #ff6600;
+  margin-right: .4em;
+}
+
+/* aesthetics.scss */
+/* line 4, sass/_partials/_aesthetics.scss */
+.atf .amazon-reviews {
+  line-height: 1;
+  position: relative;
+  top: -10px;
+}
+/* line 9, sass/_partials/_aesthetics.scss */
+.atf .amazon-reviews .amazon-logo {
+  width: 15%;
+  position: relative;
+  top: 15px;
+}
+/* line 15, sass/_partials/_aesthetics.scss */
+.atf .cta-button {
+  width: 50%;
+}

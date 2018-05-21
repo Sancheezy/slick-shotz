@@ -1,0 +1,36 @@
+/* lists.scss */
+.payment-icons {
+	height: 28px;
+
+	.fa {
+		font-size: 1.5em;
+	}
+	li {
+		display: inline-block;
+		width: 3%;
+		&:last-child {
+			width: 13%;
+			font-size: 1.3rem;
+			vertical-align: top;
+			line-height: 24px;
+		}
+	}
+}
+.atf {
+
+	.benefits {
+
+		li {
+			font-size: 1.4rem;
+			display: inline-flex;
+			line-height: 1.2em;
+			&:before {
+				font-family: "FontAwesome";
+				content: "\f058";
+				display: inline-block;
+				color: $orange;
+				margin-right: .4em;
+			}
+		}
+	}
+}

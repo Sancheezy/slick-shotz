@@ -1,0 +1,24 @@
+/*
+Theme Name: Slick Shotz Store Front
+Theme URI: 
+Author: Rogelio Sanchez
+Author URI: 
+Description: Custom Store front theme for Slick Shotz
+Version: 1.0
+*/
+
+@import "compass";
+@import "compass/reset";
+
+// Here we import our partials
+@import "_partials/variables";
+@import "_partials/buttons";
+@import "_partials/columns";
+@import "_partials/navigation";
+@import "_partials/spacing";
+@import "_partials/structure";
+@import "_partials/typography";
+@import "_partials/colors";
+@import "_partials/lists";
+@import "_partials/aesthetics";
+// @import "_partials/woocommerce";

@@ -1,0 +1,16 @@
+/* woocommerce.scss */
+.btn {
+	display: inline-block;
+	padding: 8px 16px;
+	text-align: center;
+	border-radius: 4px;
+}
+.cta {
+	font-weight: 700;
+	padding: 16px 12px;
+	background: $orange;
+	color: $white;
+	&:hover {
+		background: $cta-orange-hover;
+	}
+}

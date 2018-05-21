@@ -1,0 +1,35 @@
+/* colors.scss */
+.white-text {
+	color: $white;
+}
+.orange-text {
+	color: $orange;
+}
+.visa-blue {
+	color: #1661A3;
+}
+.paypal-blue {
+	color: #009BE1;
+}
+.amazon-orange {
+	color: #FFA22D;
+}
+.amex-blue {
+	color: #37A6D3;
+}
+.mc-blue {
+	color: #4A67C5;
+}
+.discover {
+	color: #F87800;
+}
+.fa-star {
+	color: #FFB900;
+}
+// backgrounds
+.lt-grey-bg {
+	background: $light-grey;
+}
+.wood-bg {
+	background: url(http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/black-wood-bg.jpg) top left;
+}

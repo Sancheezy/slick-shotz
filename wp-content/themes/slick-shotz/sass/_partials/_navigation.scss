@@ -1,0 +1,15 @@
+/* navigation.scss */
+.main-nav {
+	height: 40px;
+
+
+	.logo {
+		position: relative;
+		top: 5px;
+	}
+	li {
+		display: inline-block;
+		width: 15%;
+		line-height: 40px;
+	}
+}
