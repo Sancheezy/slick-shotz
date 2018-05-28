@@ -181,7 +181,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 10, sass/_partials/_navigation.scss */
 .main-nav li {
   display: inline-block;
-  width: 15%;
+  width: 13%;
   line-height: 40px;
 }
 
@@ -285,6 +285,11 @@ body {
 /* line 24, sass/_partials/_structure.scss */
 .visible-xs {
   display: none !important;
+}
+
+/* line 27, sass/_partials/_structure.scss */
+small {
+  font-size: 85%;
 }
 
 /* typography.scss */
@@ -392,6 +397,11 @@ a {
   background: url(http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/black-wood-bg.jpg) top left;
 }
 
+/* line 36, sass/_partials/_colors.scss */
+.dk-grey-bg {
+  background: #2C2A29;
+}
+
 /* lists.scss */
 /* line 2, sass/_partials/_lists.scss */
 .payment-icons {
@@ -427,6 +437,21 @@ a {
   display: inline-block;
   color: #ff6600;
   margin-right: .4em;
+}
+
+/* line 41, sass/_partials/_lists.scss */
+.footer .payment-icons li {
+  width: 14%;
+}
+/* line 43, sass/_partials/_lists.scss */
+.footer .payment-icons li:last-child {
+  font-size: inherit;
+}
+/* line 50, sass/_partials/_lists.scss */
+.footer .security-seals li {
+  width: 10%;
+  display: inline-block;
+  padding: 0 .5em;
 }
 
 /* aesthetics.scss */
