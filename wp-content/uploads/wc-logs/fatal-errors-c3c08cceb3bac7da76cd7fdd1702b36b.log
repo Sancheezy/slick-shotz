@@ -1,0 +1,16 @@
+2018-05-29T04:16:57+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in /Users/rogeliosmashtech/code/htdocs/slick-shotz/wp-content/themes/slick-shotz/index.php:50
+Stack trace:
+#0 /Users/rogeliosmashtech/code/htdocs/slick-shotz/wp-includes/template-loader.php(74): include()
+#1 /Users/rogeliosmashtech/code/htdocs/slick-shotz/wp-blog-header.php(19): require_once('/Users/rogelios...')
+#2 /Users/rogeliosmashtech/code/htdocs/slick-shotz/index.php(17): require('/Users/rogelios...')
+#3 {main}
+  thrown
+
+2018-05-29T04:17:40+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in /Users/rogeliosmashtech/code/htdocs/slick-shotz/wp-content/themes/slick-shotz/index.php:50
+Stack trace:
+#0 /Users/rogeliosmashtech/code/htdocs/slick-shotz/wp-includes/template-loader.php(74): include()
+#1 /Users/rogeliosmashtech/code/htdocs/slick-shotz/wp-blog-header.php(19): require_once('/Users/rogelios...')
+#2 /Users/rogeliosmashtech/code/htdocs/slick-shotz/index.php(17): require('/Users/rogelios...')
+#3 {main}
+  thrown
+
