@@ -70,6 +70,25 @@ get_header();
 		</div>
 	</div>
 </section>
+
+<section class="featured-products padding-vertical-4">
+	<div class="container">
+		<header class="text-center">
+			<h1 class="bold">Featured Products</h1>
+			<h3 class="mb-4">FREE SHIPPING within the contiguous U.S</h3>
+		</header>	
+		<?php echo do_shortcode( ' [featured_products per_page=”3″ columns=”3″ orderby=”date” order=”desc”] ' ); ?>
+	</div>
+</section>
+
+<section class="instagram padding-vertical-4">
+	<div class="container">
+		<header class="text-center">
+			<h1 class="bold">Get Social with #SlickShotz</h1>
+			<h3 class="mb-4">Share your photos on social media with #SlickShotz</h3>
+		</header>	
+	</div>
+</section>
 <?php
 get_footer();
 ?>
