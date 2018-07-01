@@ -9,7 +9,11 @@
 	}
 	li {
 		display: inline-block;
-		width: 13%;
+		width: 12%;
 		line-height: 40px;
+
+		a:hover {
+			color: $orange;
+		}
 	}
 }

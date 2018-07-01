@@ -6,7 +6,7 @@ Author URI:
 Description: Custom Store front theme for Slick Shotz
 Version: 1.0
 */
-/* line 5, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -28,45 +28,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../.rvm/gems/ruby-2.4.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -79,18 +79,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 8px 16px;
   text-align: center;
   border-radius: 4px;
-  font-size: 1.5rem;
 }
 
-/* line 9, sass/_partials/_buttons.scss */
-.add_to_cart_button, .cta-button {
+/* line 8, sass/_partials/_buttons.scss */
+.cta-button {
   font-weight: 700;
   padding: 16px 12px;
   background: #ff6600;
   color: #ffffff;
 }
-/* line 14, sass/_partials/_buttons.scss */
-.add_to_cart_button:hover, .cta-button:hover {
+/* line 13, sass/_partials/_buttons.scss */
+.cta-button:hover {
   background: #ff7421;
 }
 
@@ -181,8 +180,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 10, sass/_partials/_navigation.scss */
 .main-nav li {
   display: inline-block;
-  width: 13%;
+  width: 12%;
   line-height: 40px;
+}
+/* line 15, sass/_partials/_navigation.scss */
+.main-nav li a:hover {
+  color: #ff6600;
 }
 
 /* spacing.scss */
@@ -470,4 +473,80 @@ a {
 /* line 15, sass/_partials/_aesthetics.scss */
 .atf .cta-button {
   width: 50%;
+}
+
+/* woocommerce.scss */
+/* category styles */
+/* line 4, sass/_partials/_woocommerce.scss */
+.woocommerce-products-header,
+.woocommerce-result-count,
+.woocommerce-ordering,
+#sidebar {
+  display: none;
+}
+
+/* line 10, sass/_partials/_woocommerce.scss */
+.product {
+  margin-bottom: 3em;
+}
+/* line 13, sass/_partials/_woocommerce.scss */
+.product .woocommerce-loop-product__title {
+  font-size: 1.25rem;
+  text-align: center;
+  margin: .25em 0 .5em 0;
+}
+/* line 18, sass/_partials/_woocommerce.scss */
+.product .price {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 1.1rem;
+}
+/* line 24, sass/_partials/_woocommerce.scss */
+.product ins {
+  color: #ff6600;
+  margin-left: .5em;
+}
+
+/* line 29, sass/_partials/_woocommerce.scss */
+.btn {
+  padding: 8px 16px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* line 34, sass/_partials/_woocommerce.scss */
+.add_to_cart_button,
+.single_add_to_cart_button {
+  font-weight: 700;
+  padding: 16px 12px;
+  background: #ff6600;
+  color: #ffffff;
+}
+/* line 40, sass/_partials/_woocommerce.scss */
+.add_to_cart_button:hover,
+.single_add_to_cart_button:hover {
+  background: #ff7421;
+}
+
+/* line 44, sass/_partials/_woocommerce.scss */
+.add_to_cart_button {
+  float: right;
+}
+
+/* line 47, sass/_partials/_woocommerce.scss */
+.info-button {
+  background: #A2A2A2;
+  padding: 16px 12px;
+  font-weight: 700;
+}
+/* line 51, sass/_partials/_woocommerce.scss */
+.info-button:hover {
+  background: #aaa;
+}
+
+/* line 55, sass/_partials/_woocommerce.scss */
+.add_to_cart_button, .info-button {
+  width: 42%;
+  display: inline-block;
 }

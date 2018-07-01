@@ -39,4 +39,23 @@ function woocommerce_output_content_wrapper_end() {
 		echo '</div><!-- end container -->
 	</section><!-- end section -->';
 }
+
+// add custom button text to products category page
+add_filter( 'add_to_cart_text', 'woo_custom_product_add_to_cart_text' );            // < 2.1
+add_filter( 'woocommerce_product_add_to_cart_text', 'woo_custom_product_add_to_cart_text' );  // 2.1 +
+  
+function woo_custom_product_add_to_cart_text() {
+  
+    return __( 'Buy Now »', 'woocommerce' ); 
+}
+
+// more info button
+function more_information() {
+	global $product;
+	if ($product){
+		$url = esc_url($product->get_permalink() );
+		echo '<a rel="nofollow" href="' .$url .'" class="btn grey-button info-button white-text">More Info »</a>';
+	}
+}
+add_action('woocommerce_after_shop_loop_item_title','more_information');
 ?>

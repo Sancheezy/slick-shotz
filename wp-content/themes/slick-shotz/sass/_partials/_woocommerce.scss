@@ -1,11 +1,38 @@
 /* woocommerce.scss */
+
+/* category styles */
+.woocommerce-products-header,
+.woocommerce-result-count,
+.woocommerce-ordering,
+#sidebar {
+	display: none;
+}
+.product {
+	margin-bottom: 3em;
+
+	.woocommerce-loop-product__title {
+		font-size: 1.25rem;
+		text-align: center;
+		margin: .25em 0 .5em 0;
+	}
+	.price {
+		display: block;
+		text-align: center;
+		margin-bottom: 1em;
+		font-size: 1.1rem;
+	}
+	ins {
+		color: $orange;
+		margin-left: .5em;
+	}
+}
 .btn {
-	display: inline-block;
 	padding: 8px 16px;
 	text-align: center;
 	border-radius: 4px;
 }
-.cta {
+.add_to_cart_button,
+.single_add_to_cart_button {
 	font-weight: 700;
 	padding: 16px 12px;
 	background: $orange;
@@ -13,4 +40,19 @@
 	&:hover {
 		background: $cta-orange-hover;
 	}
+}
+.add_to_cart_button {
+	float: right;
+}
+.info-button {
+	background: $grey;
+	padding: 16px 12px;
+	font-weight: 700;
+	&:hover {
+		background: #aaa;
+	}	
+}
+.add_to_cart_button, .info-button {
+	width: 42%;
+	display: inline-block;
 }
