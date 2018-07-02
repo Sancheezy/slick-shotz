@@ -75,41 +75,45 @@
 	<div class="wrapper">
 		<section class="top-bar lt-grey-bg">
 			<div class="container">
-				<ul class="payment-icons text-right">
-					<li><i class="fa fa-amazon amazon-orange"></i></li>
-					<li><i class="fa fa-cc-paypal paypal-blue"></i></li>
-					<li><i class="fa fa-cc-visa visa-blue"></i></li>
-					<li><i class="fa fa-cc-amex amex-blue"></i></li>
-					<li><i class="fa fa-cc-mastercard mc-blue"></i></li>
-					<li><i class="fa fa-cc-discover discover"></i></li>
-					<li class="orange-text">Free Shipping</li>
-				</ul>
+				<div class="padding-horizontal-15px">
+					<ul class="payment-icons text-right">
+						<li><i class="fa fa-amazon amazon-orange"></i></li>
+						<li><i class="fa fa-cc-paypal paypal-blue"></i></li>
+						<li><i class="fa fa-cc-visa visa-blue"></i></li>
+						<li><i class="fa fa-cc-amex amex-blue"></i></li>
+						<li><i class="fa fa-cc-mastercard mc-blue"></i></li>
+						<li><i class="fa fa-cc-discover discover"></i></li>
+						<li class="orange-text">Free Shipping</li>
+					</ul>
+				</div><!--end padding-->	
 			</div><!--end container-->
 		</section><!--end top bar-->
 		<nav class="main-nav padding-vertical-3">
 			<div class="container">
-				<div class="column col-md-2">
-					<a href="/" class="orange-text bold logo">
-						<h2>Slick Shotz</h2>
-					</a>
-				</div><!--end column-->
-				<div class="column col-md-10 hidden-xs">
-					<div class="text-right">
-						<?php wp_nav_menu(
-							array( 
-							'theme_location' => 'main-nav', 
-							'container_class' => 'menu-container',
-							) 
-						); // Adjust using Menus in Wordpress Admin ?>
-					</div><!--end text center-->	
-				</div><!--end column-->
-				<div class="column col-md-3 col-xs-2">
-					<a href="javascript:void(0);" class="icon visible-xs" onclick="myFunction(this)">
-						<span class="bar1"></span>
-						<span class="bar2"></span>
-						<span class="bar3"></span>
-					</a>
-				</div><!--end column-->
+				<div class="padding-horizontal-15px">
+					<div class="column col-md-2">
+						<a href="/" class="orange-text bold logo">
+							<h2>Slick Shotz</h2>
+						</a>
+					</div><!--end column-->
+					<div class="column col-md-10 hidden-xs">
+						<div class="text-right">
+							<?php wp_nav_menu(
+								array( 
+								'theme_location' => 'main-nav', 
+								'container_class' => 'menu-container',
+								) 
+							); // Adjust using Menus in Wordpress Admin ?>
+						</div><!--end text center-->	
+					</div><!--end column-->
+					<div class="column col-md-3 col-xs-2">
+						<a href="javascript:void(0);" class="icon visible-xs" onclick="myFunction(this)">
+							<span class="bar1"></span>
+							<span class="bar2"></span>
+							<span class="bar3"></span>
+						</a>
+					</div><!--end column-->
+				</div><!--end padding-->
 			</div><!--end container-->
 		</nav><!--end main nav-->
 		<!--mobile menu-->

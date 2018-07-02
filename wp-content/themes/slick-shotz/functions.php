@@ -58,4 +58,16 @@ function more_information() {
 	}
 }
 add_action('woocommerce_after_shop_loop_item_title','more_information');
+
+// single product add to cart
+/**
+ * Change the "Add to Cart" text on the single product page
+ *
+ * @return string
+ */
+function wc_custom_single_addtocart_text() {
+    return "Buy Now »";
+}
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'wc_custom_single_addtocart_text' );
+
 ?>
