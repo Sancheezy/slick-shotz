@@ -36,36 +36,36 @@ get_header();
 	<div class="container text-center">
 		<h1 class="bold mb-1">How it Works</h1>
 		<h3 class="mb-4">Easy as 1-2-3</h3>
-		<div class="column col-md-4">
+		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
 				<img src="http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/placeholder-image.jpg" class="img-responsive" />
 				<span class="spacer-5 block">&nbsp;</span>
 				<h2 class="bold"><span class="orange-text">1.</span> Fill It</h2>
 				<span class="spacer-10 block">&nbsp;</span>
 				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-				<span class="spacer-30">&nbsp;</span>
+				<span class="spacer-30 block">&nbsp;</span>
 			</div>	
 		</div>
 
-		<div class="column col-md-4">
+		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
 				<img src="http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/placeholder-image.jpg" class="img-responsive" />
 				<span class="spacer-5 block">&nbsp;</span>
 				<h2 class="bold"><span class="orange-text">2.</span> Seal It</h2>
 				<span class="spacer-10 block">&nbsp;</span>
 				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-				<span class="spacer-30">&nbsp;</span>
+				<span class="spacer-30 block">&nbsp;</span>
 			</div>	
 		</div>
 
-		<div class="column col-md-4">
+		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
 				<img src="http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/placeholder-image.jpg" class="img-responsive" />
 				<span class="spacer-5 block">&nbsp;</span>
 				<h2 class="bold"><span class="orange-text">3.</span> Use It</h2>
 				<span class="spacer-10 block">&nbsp;</span>
 				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-				<span class="spacer-30">&nbsp;</span>
+				<span class="spacer-30 block">&nbsp;</span>
 			</div>	
 		</div>
 	</div>

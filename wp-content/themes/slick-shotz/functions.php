@@ -70,4 +70,16 @@ function wc_custom_single_addtocart_text() {
 }
 add_filter( 'woocommerce_product_single_add_to_cart_text', 'wc_custom_single_addtocart_text' );
 
+/* Restricting shipping only to continental U.S. by removing certain states from default U.S. list */
+add_filter( 'woocommerce_states', 'custom_woocommerce_states' );
+
+function custom_woocommerce_states( $states ) {
+$excluded_states = array('AK', 'AA', 'AE', 'AP', 'AS', 'GU', 'MP', 'PR', 'UM', 'VI', 'HI');
+foreach($excluded_states as $no_state){
+unset($states['US'][$no_state]);
+}
+
+return $states;
+}
+
 ?>

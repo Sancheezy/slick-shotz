@@ -44,3 +44,13 @@
 .col-md-1 {
 	width: 8.33333333%;
 }
+
+/* media queries */
+@media (max-width: 767px) {
+	.col-12 {
+		width: 100%;
+	}
+	.col-6 {
+		width: 48%;
+	}
+}

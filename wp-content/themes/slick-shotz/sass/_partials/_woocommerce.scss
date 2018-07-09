@@ -3,6 +3,25 @@
 .woocommerce-breadcrumb {
 	margin: 1em 0;
 }
+
+/* featured products on home page */
+.featured-products {
+	.woocommerce-loop-product__title {
+		font-size: 1.2rem;
+		text-align: center;
+	}
+	.price {
+		display: block;
+	    text-align: center;
+	    margin: .25em 0 .5em 0;
+	    font-size: 1.2rem;
+	    ins {
+	    	color: $orange;
+	    	font-weight: 700;
+	    }
+	}
+}
+
 /* category styles */
 .woocommerce-products-header,
 .woocommerce-result-count,
@@ -160,5 +179,130 @@
 				margin-bottom: .5em;
 			}
 		}
+	}
+	.related {
+		margin-bottom: 3em;
+
+		h2 {
+			font-size: 1.2rem;
+			margin-bottom: 1em;
+			padding-left: 15px;
+		}
+		.woocommerce-loop-product__title {
+			text-align: center;
+			margin-bottom: 0;
+			padding: 0;
+		}
+		.price {
+			font-size: 1.2rem;
+			margin: .25em 0 .5em 0;
+			text-align: center;
+			display: block;
+		}
+	}
+}
+/* cart */
+.shop_table {
+	.cart-titles {
+		border-bottom: solid 2px #ccc;
+
+		th {
+			padding-bottom: .25em;
+		}
+	}
+	.woocommerce-cart-form__cart-item {
+		border-bottom: solid 1px #ccc;
+
+		td {
+			padding: .5em 0;
+		}
+		.product-thumbnail {
+			width: 20%;
+			text-align: center;
+			img {
+				width: 35%;
+			}
+		}
+		.product-name {
+			width: 30%;
+
+			a {
+				text-decoration: underline;
+			}
+		}
+		.product-quantity {
+			input {
+				background: #BBBBBB;
+			    color: #fff;
+			    border: 0;
+			    height: 35px;
+			    width: 50px;
+			    text-align: center;
+			    font-size: 1rem;
+			}
+		}
+	}
+}
+.update-cart {
+	margin: 1em 0;
+	width: 12%;
+	float: right;
+	font-size: .9rem;
+	border-color: #A2A2A2;
+	padding: .75em 0;
+	cursor: pointer;
+	&:hover {
+		border-color: #696969;
 	}	
+}
+.cart-collaterals {
+	float: right;
+	width: 25%;
+	table {
+		width: 100%;
+		margin-bottom: 1em;
+
+		tr {
+			border-bottom: solid 1px #ccc;
+		}
+		th, td {
+			padding: .5em 0;
+		}
+	}
+	tr.shipping {
+		display: none;
+	}
+}
+/* checkout forms */
+.woocommerce-checkout {
+	label, input {
+		display: block;
+	}
+	input {
+		width: 100%;
+		border-radius: 4px;
+		border: solid 1px #ccc;
+		padding: .75em .25em;
+	}
+	.form-row {
+		margin-bottom: 1em;
+		display: inline-block;
+	}
+	#billing_country_field,
+	#billing_company_field {
+		width: 100%;
+	}
+	#billing_last_name_field,
+	#billing_address_2_field,
+	#billing_state_field,
+	#billing_phone_field {
+		float: right;
+	}
+	#billing_state {
+		height: 31.5px;
+	}
+	#billing_address_2_field {
+		position: relative;
+		top: 18px;
+	}
 }

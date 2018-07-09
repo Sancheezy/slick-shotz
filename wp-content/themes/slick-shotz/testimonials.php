@@ -13,7 +13,7 @@ get_header();
 
 <section class="testimonials padding-vertical-4">
 	<div class="container">
-		<div class="column col-md-4">
+		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
 				<p>
 					<i class="fa fa-star"></i>
@@ -30,7 +30,7 @@ get_header();
 			</div>
 		</div><!--end column-->
 
-		<div class="column col-md-4">
+		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
 				<p>
 					<i class="fa fa-star"></i>
@@ -47,7 +47,7 @@ get_header();
 			</div>
 		</div><!--end column-->
 
-		<div class="column col-md-4">
+		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
 				<p>
 					<i class="fa fa-star"></i>
@@ -64,7 +64,7 @@ get_header();
 			</div>
 		</div><!--end column-->
 
-		<div class="column col-md-4">
+		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
 				<p>
 					<i class="fa fa-star"></i>
@@ -81,7 +81,7 @@ get_header();
 			</div>
 		</div><!--end column-->
 
-		<div class="column col-md-4">
+		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
 				<p>
 					<i class="fa fa-star"></i>
@@ -98,7 +98,7 @@ get_header();
 			</div>
 		</div><!--end column-->
 
-		<div class="column col-md-4">
+		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
 				<p>
 					<i class="fa fa-star"></i>
@@ -115,7 +115,7 @@ get_header();
 			</div>
 		</div><!--end column-->
 
-		<div class="column col-md-4">
+		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
 				<p>
 					<i class="fa fa-star"></i>
@@ -132,7 +132,7 @@ get_header();
 			</div>
 		</div><!--end column-->
 
-		<div class="column col-md-4">
+		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
 				<p>
 					<i class="fa fa-star"></i>
@@ -149,7 +149,7 @@ get_header();
 			</div>
 		</div><!--end column-->
 
-		<div class="column col-md-4">
+		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
 				<p>
 					<i class="fa fa-star"></i>
