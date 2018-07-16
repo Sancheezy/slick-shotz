@@ -34,8 +34,8 @@ $wrapper_classes   = apply_filters( 'woocommerce_single_product_image_gallery_cl
 	'images',
 ) );
 ?>
-<div class="column col-md-6">
-	<div class="padding-horizontal-15px">
+<div class="column col-12 col-md-5">
+	<div class="padding-horizontal-15px single-product-img">
 		<div class="<?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>" style="opacity: 0; transition: opacity .25s ease-in-out;">
 			<figure class="woocommerce-product-gallery__wrapper">
 				<?php

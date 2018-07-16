@@ -1,7 +1,7 @@
 	<footer class="footer dk-grey-bg padding-vertical-4">
 		<div class="container">
 			<div class="top-row">
-				<div class="column col-md-4">
+				<div class="column col-12 col-md-4">
 					<div class="padding-horizontal-15px">
 						<p><span class="bold white-text brand-name">Slick Shotz</span> <small class="text-right"><a href="#" class="footer-link white-text">Privacy Policy</a> | <a href="#" class="footer-link white-text">Terms & Conditions</a></small></p>
 						<span class="spacer-5 block">&nbsp;</span>
@@ -9,7 +9,7 @@
 					</div>
 				</div>
 
-				<div class="column col-md-3">
+				<div class="column col-12 col-md-3">
 					<div class="padding-horizontal-15px">
 						<p class="white-text">Accepted Payments:</p>
 						<span class="spacer-5 block">&nbsp;</span>
@@ -24,14 +24,14 @@
 					</div>
 				</div>
 
-				<div class="column col-md-3">
+				<div class="column col-12 col-md-3">
 					<div class="padding-horizontal-15px">
 						<p class="mb-2 white-text">Contact Us:</p>
 						<a href="mailto:info@slickshotz.com" class="white-text">info@slickshotz.com</a>
 					</div>
 				</div>
 
-				<div class="column col-md-2">
+				<div class="column col-12 col-md-2">
 					<div class="padding-horizontal-15px">
 						<p class="mb-2 white-text">Follow Us:</p>
 						<i class="fa fa-facebook-square white-text fa-2x"></i>

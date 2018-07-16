@@ -82,4 +82,12 @@ unset($states['US'][$no_state]);
 return $states;
 }
 
+// change Place order text on checkout
+/* Add to the functions.php file of your theme */
+
+add_filter( 'woocommerce_order_button_text', 'woo_custom_order_button_text' ); 
+
+function woo_custom_order_button_text() {
+    return __( 'Complete My Order »', 'woocommerce' ); 
+}
 ?>

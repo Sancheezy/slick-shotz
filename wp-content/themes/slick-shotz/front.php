@@ -7,7 +7,7 @@ get_header();
 <section class="atf wood-bg padding-vertical-4">
 	<div class="container">
 		<h1 class="text-center white-text bold mb-4">The <span class="orange-text">Only</span> Legal-to-Carry Flask!</h1>
-		<div class="column col-md-6">
+		<div class="column col-12 col-md-6">
 			<img src="http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/atf-image.jpg" class="img-responsive mb-1" />
 			<p class="amazon-reviews text-center">
 				<i class="fa fa-star"></i>
@@ -18,7 +18,7 @@ get_header();
 				<img src="http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/amazon_logo.png" class="img-responsive amazon-logo"
 			</p>
 		</div><!--end column-->
-		<div class="column col-md-6">
+		<div class="column col-12 col-md-6">
 			<div class="padding-horizontal-15px">
 				<ul class="benefits white-text mb-4">
 					<li class="mb-3">Take with you to concerts, clubs, bars, and sports events</li>
