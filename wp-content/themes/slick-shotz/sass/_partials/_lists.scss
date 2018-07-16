@@ -54,3 +54,51 @@
 		}
 	}
 }
+
+/* media queries */
+@media (max-width: 767px) {
+	.payment-icons {
+		height: auto;
+		padding: .2em 0;
+
+		li {
+			width: 10%;
+			&:last-child {
+				width: 33%;
+				font-size: .9rem;
+			}
+		}
+	}
+	.atf {
+
+		.benefits {
+
+			li {
+				font-size: 1rem;
+			}
+		}
+	}
+	.footer {
+
+		.top-row {
+			.column {
+				margin-bottom: 1em;
+			}
+			.fa-facebook-square {
+				margin-right: .25em;
+			}
+		}
+		.payment-icons {
+
+			li {
+				width: 12%;
+			}
+		}
+		.security-seals {
+
+			li {
+				width: 30%;
+			}
+		}
+	}
+}

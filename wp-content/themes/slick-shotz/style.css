@@ -179,6 +179,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .col-6 {
     width: 48%;
   }
+
+  /* line 56, sass/_partials/_columns.scss */
+  .col-5 {
+    width: 42%;
+  }
 }
 /* navigation.scss */
 /* line 2, sass/_partials/_navigation.scss */
@@ -201,6 +206,85 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #ff6600;
 }
 
+/* media queries */
+@media (max-width: 767px) {
+  /* line 23, sass/_partials/_navigation.scss */
+  .main-nav {
+    position: relative;
+    padding: 5px 0 !important;
+    /* Rotate first bar */
+    /* Fade out the second bar */
+    /* Rotate last bar */
+  }
+  /* line 27, sass/_partials/_navigation.scss */
+  .main-nav .logo .headline {
+    position: relative;
+    top: 5px;
+  }
+  /* line 32, sass/_partials/_navigation.scss */
+  .main-nav .hamburger-icon {
+    float: right;
+  }
+  /* line 35, sass/_partials/_navigation.scss */
+  .main-nav .icon {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    cursor: pointer;
+    line-height: 10px;
+    margin-left: 10px;
+  }
+  /* line 43, sass/_partials/_navigation.scss */
+  .main-nav .bar1, .main-nav .bar2, .main-nav .bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: #ddd;
+    margin: 3px 0;
+    transition: 0.4s;
+    display: inline-block;
+  }
+  /* line 53, sass/_partials/_navigation.scss */
+  .main-nav .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+    transform: rotate(-45deg) translate(-8px, 6px);
+  }
+  /* line 58, sass/_partials/_navigation.scss */
+  .main-nav .change .bar2 {
+    opacity: 0;
+  }
+  /* line 62, sass/_partials/_navigation.scss */
+  .main-nav .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -6px);
+    transform: rotate(45deg) translate(-8px, -6px);
+  }
+
+  /* line 69, sass/_partials/_navigation.scss */
+  .mobile-menu-container li {
+    display: none;
+  }
+
+  /* line 73, sass/_partials/_navigation.scss */
+  .responsive-menu {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #F9F7F6;
+  }
+  /* line 79, sass/_partials/_navigation.scss */
+  .responsive-menu li {
+    display: block;
+    margin-bottom: 15px;
+  }
+  /* line 82, sass/_partials/_navigation.scss */
+  .responsive-menu li:last-child {
+    margin-bottom: 0;
+  }
+  /* line 86, sass/_partials/_navigation.scss */
+  .responsive-menu a {
+    display: block;
+    text-align: center;
+  }
+}
 /* spacing.scss */
 /* line 4, sass/_partials/_spacing.scss */
 .padding-horizontal-15px {
@@ -307,6 +391,18 @@ small {
   font-size: 85%;
 }
 
+/* media queries */
+@media (max-width: 767px) {
+  /* line 32, sass/_partials/_structure.scss */
+  .visible-xs {
+    display: block !important;
+  }
+
+  /* line 35, sass/_partials/_structure.scss */
+  .hidden-xs {
+    display: none !important;
+  }
+}
 /* typography.scss */
 /* line 2, sass/_partials/_typography.scss */
 h1 {
@@ -356,6 +452,28 @@ a {
   font-weight: 700;
 }
 
+/* media queries */
+@media (max-width: 767px) {
+  /* line 35, sass/_partials/_typography.scss */
+  h1 {
+    font-size: 1.35rem;
+  }
+
+  /* line 38, sass/_partials/_typography.scss */
+  h2 {
+    font-size: 1.15rem;
+  }
+
+  /* line 41, sass/_partials/_typography.scss */
+  h3 {
+    font-size: 1rem;
+  }
+
+  /* line 44, sass/_partials/_typography.scss */
+  h4 {
+    font-size: .9rem;
+  }
+}
 /* colors.scss */
 /* line 2, sass/_partials/_colors.scss */
 .white-text {
@@ -469,6 +587,45 @@ a {
   padding: 0 .5em;
 }
 
+/* media queries */
+@media (max-width: 767px) {
+  /* line 60, sass/_partials/_lists.scss */
+  .payment-icons {
+    height: auto;
+    padding: .2em 0;
+  }
+  /* line 64, sass/_partials/_lists.scss */
+  .payment-icons li {
+    width: 10%;
+  }
+  /* line 66, sass/_partials/_lists.scss */
+  .payment-icons li:last-child {
+    width: 33%;
+    font-size: .9rem;
+  }
+
+  /* line 76, sass/_partials/_lists.scss */
+  .atf .benefits li {
+    font-size: 1rem;
+  }
+
+  /* line 84, sass/_partials/_lists.scss */
+  .footer .top-row .column {
+    margin-bottom: 1em;
+  }
+  /* line 87, sass/_partials/_lists.scss */
+  .footer .top-row .fa-facebook-square {
+    margin-right: .25em;
+  }
+  /* line 93, sass/_partials/_lists.scss */
+  .footer .payment-icons li {
+    width: 12%;
+  }
+  /* line 99, sass/_partials/_lists.scss */
+  .footer .security-seals li {
+    width: 30%;
+  }
+}
 /* aesthetics.scss */
 /* line 4, sass/_partials/_aesthetics.scss */
 .atf .amazon-reviews {
@@ -485,6 +642,17 @@ a {
 /* line 15, sass/_partials/_aesthetics.scss */
 .atf .cta-button {
   width: 50%;
+}
+
+/* media queries */
+/* line 23, sass/_partials/_aesthetics.scss */
+.atf .amazon-reviews {
+  top: -7px;
+  margin-bottom: .5em;
+}
+/* line 27, sass/_partials/_aesthetics.scss */
+.atf .amazon-reviews .amazon-logo {
+  top: 8px;
 }
 
 /* woocommerce.scss */
@@ -934,7 +1102,7 @@ a {
   color: #ffffff;
   width: 50%;
   font-size: 1.2rem;
-  margin-top: 1em;
+  margin: 1em 0;
   border: 0;
   cursor: pointer;
 }
@@ -943,15 +1111,22 @@ a {
   background: #ff7421;
 }
 
+/* line 402, sass/_partials/_woocommerce.scss */
+.woocommerce-cart .footer {
+  clear: both;
+  position: relative;
+  top: 3em;
+}
+
 /* alerts */
-/* line 401, sass/_partials/_woocommerce.scss */
+/* line 409, sass/_partials/_woocommerce.scss */
 .woocommerce-error, .alert-danger {
   color: #721c24;
   background-color: #f8d7da;
   border-color: #f5c6cb;
 }
 
-/* line 406, sass/_partials/_woocommerce.scss */
+/* line 414, sass/_partials/_woocommerce.scss */
 .woocommerce-error, .alert {
   position: relative;
   padding: .75rem 0;
@@ -960,7 +1135,76 @@ a {
   border-radius: .25rem;
 }
 
-/* line 413, sass/_partials/_woocommerce.scss */
+/* line 421, sass/_partials/_woocommerce.scss */
 .woocommerce-error li {
   padding: 0 1em;
+}
+
+/* media queries */
+@media (max-width: 767px) {
+  /* line 427, sass/_partials/_woocommerce.scss */
+  .update-cart {
+    width: 30%;
+  }
+
+  /* line 430, sass/_partials/_woocommerce.scss */
+  .cart-collaterals {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 434, sass/_partials/_woocommerce.scss */
+  .wc-proceed-to-checkout a {
+    font-size: 1.2rem;
+  }
+
+  /* line 439, sass/_partials/_woocommerce.scss */
+  .woocommerce-checkout .form-row {
+    width: 49%;
+    margin-bottom: .75em;
+  }
+  /* line 443, sass/_partials/_woocommerce.scss */
+  .woocommerce-checkout input {
+    width: 95%;
+    height: 20px;
+  }
+  /* line 447, sass/_partials/_woocommerce.scss */
+  .woocommerce-checkout #billing_company {
+    width: 98%;
+  }
+  /* line 450, sass/_partials/_woocommerce.scss */
+  .woocommerce-checkout #billing_state_field {
+    position: relative;
+    top: -3px;
+  }
+  /* line 454, sass/_partials/_woocommerce.scss */
+  .woocommerce-checkout #billing_postcode {
+    width: 88%;
+  }
+  /* line 457, sass/_partials/_woocommerce.scss */
+  .woocommerce-checkout .billing-fields {
+    margin-right: 0;
+  }
+  /* line 460, sass/_partials/_woocommerce.scss */
+  .woocommerce-checkout .select2-container {
+    width: 95% !important;
+  }
+  /* line 463, sass/_partials/_woocommerce.scss */
+  .woocommerce-checkout .select2-selection {
+    height: 39px;
+  }
+  /* line 466, sass/_partials/_woocommerce.scss */
+  .woocommerce-checkout .select2-selection__rendered {
+    position: relative;
+    top: 4px;
+  }
+  /* line 470, sass/_partials/_woocommerce.scss */
+  .woocommerce-checkout .select2-selection__arrow {
+    top: 6px !important;
+  }
+  /* line 473, sass/_partials/_woocommerce.scss */
+  .woocommerce-checkout .woocommerce-checkout-review-order-table,
+  .woocommerce-checkout .place-order-btn {
+    width: 100%;
+  }
 }

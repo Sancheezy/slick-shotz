@@ -48,6 +48,22 @@
 			</div><!--end bottom row-->
 		</div><!--end container-->
 	</footer>
+
+	<script type="text/javascript" defer>
+	/* Toggle between adding and removing the "responsive" class to mobile-menu-container when the user clicks on the icon */
+	function myFunction(x) {
+		//toggle menu icon and x
+	    x.classList.toggle("change");
+
+	    //show/hide mobile menu
+	    var x = document.getElementById("main-menu-mobile");
+	    if (x.className === "mobile-menu-container") {
+	        x.className += " responsive-menu";
+	    } else {
+	        x.className = "mobile-menu-container";
+	    } 
+	}
+	</script>
 </div><!--end wrapper-->
 <?php wp_footer(); ?>
 </body><!--end body-->

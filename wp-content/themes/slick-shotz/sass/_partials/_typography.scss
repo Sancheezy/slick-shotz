@@ -29,3 +29,19 @@ a {
 .bold {
 	font-weight: 700;
 }
+
+/* media queries */
+@media (max-width: 767px) {
+	h1 {
+	font-size: 1.35rem;
+	}
+	h2 {
+		font-size: 1.15rem;
+	}
+	h3 {
+		font-size: 1rem;
+	}
+	h4 {
+		font-size: .9rem;
+	}
+}

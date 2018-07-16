@@ -91,9 +91,9 @@
 		<nav class="main-nav padding-vertical-3">
 			<div class="container">
 				<div class="padding-horizontal-15px">
-					<div class="column col-md-2">
+					<div class="column col-5 col-md-2">
 						<a href="/" class="orange-text bold logo">
-							<h2>Slick Shotz</h2>
+							<h2 class="headline">Slick Shotz</h2>
 						</a>
 					</div><!--end column-->
 					<div class="column col-md-10 hidden-xs">
@@ -106,7 +106,7 @@
 							); // Adjust using Menus in Wordpress Admin ?>
 						</div><!--end text center-->	
 					</div><!--end column-->
-					<div class="column col-md-3 col-xs-2">
+					<div class="column hamburger-icon">
 						<a href="javascript:void(0);" class="icon visible-xs" onclick="myFunction(this)">
 							<span class="bar1"></span>
 							<span class="bar2"></span>
