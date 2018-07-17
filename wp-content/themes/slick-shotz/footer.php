@@ -3,7 +3,7 @@
 			<div class="top-row">
 				<div class="column col-12 col-md-4">
 					<div class="padding-horizontal-15px">
-						<p><span class="bold white-text brand-name">Slick Shotz</span> <small class="text-right"><a href="#" class="footer-link white-text">Privacy Policy</a> | <a href="#" class="footer-link white-text">Terms & Conditions</a></small></p>
+						<p><span class="bold white-text brand-name">Slick Shotz</span> <small class="privacy-links text-right"><a href="#" class="footer-link white-text">Privacy Policy</a> | <a href="#" class="footer-link white-text">Terms & Conditions</a></small></p>
 						<span class="spacer-5 block">&nbsp;</span>
 						<p class="muted-text">&copy; 2015 – <?php echo date('Y'); ?> Slick Shotz. All rights reserved.</p>
 					</div>
@@ -34,8 +34,12 @@
 				<div class="column col-12 col-md-2">
 					<div class="padding-horizontal-15px">
 						<p class="mb-2 white-text">Follow Us:</p>
-						<i class="fa fa-facebook-square white-text fa-2x"></i>
-						<i class="fa fa-instagram white-text fa-2x"></i>
+						<a href="https://www.instagram.com/slickshotz/" target="_blank">
+							<i class="fa fa-facebook-square white-text fa-2x"></i>
+						</a>
+						<a href="https://www.facebook.com/slickshotz/" target="_blank">
+							<i class="fa fa-instagram white-text fa-2x"></i>
+						</a>	
 					</div>
 				</div>
 			</div><!--end top row-->

@@ -85,7 +85,7 @@ get_header();
 	<div class="container">
 		<header class="text-center">
 			<h1 class="bold">Get Social with #SlickShotz</h1>
-			<h3 class="mb-4">Share your photos on social media with #SlickShotz</h3>
+			<h3 class="mb-4">Share your photos on social media</h3>
 		</header>	
 	</div>
 </section>

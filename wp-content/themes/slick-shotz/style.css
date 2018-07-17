@@ -592,7 +592,7 @@ a {
   /* line 60, sass/_partials/_lists.scss */
   .payment-icons {
     height: auto;
-    padding: .2em 0;
+    padding: .2em 0 0 0;
   }
   /* line 64, sass/_partials/_lists.scss */
   .payment-icons li {
@@ -606,22 +606,29 @@ a {
 
   /* line 76, sass/_partials/_lists.scss */
   .atf .benefits li {
-    font-size: 1rem;
+    font-size: .95rem;
+    margin-bottom: .5em;
   }
 
-  /* line 84, sass/_partials/_lists.scss */
+  /* line 85, sass/_partials/_lists.scss */
   .footer .top-row .column {
     margin-bottom: 1em;
   }
-  /* line 87, sass/_partials/_lists.scss */
+  /* line 88, sass/_partials/_lists.scss */
   .footer .top-row .fa-facebook-square {
     margin-right: .25em;
   }
-  /* line 93, sass/_partials/_lists.scss */
-  .footer .payment-icons li {
-    width: 12%;
+  /* line 91, sass/_partials/_lists.scss */
+  .footer .top-row .privacy-links {
+    display: block;
+    margin-top: .5em;
+    text-align: left;
   }
   /* line 99, sass/_partials/_lists.scss */
+  .footer .payment-icons li {
+    width: 9%;
+  }
+  /* line 105, sass/_partials/_lists.scss */
   .footer .security-seals li {
     width: 30%;
   }
