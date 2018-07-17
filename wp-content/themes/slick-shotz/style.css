@@ -646,11 +646,15 @@ a {
 
 /* media queries */
 /* line 23, sass/_partials/_aesthetics.scss */
+.atf .headline {
+  margin-bottom: .75em;
+}
+/* line 26, sass/_partials/_aesthetics.scss */
 .atf .amazon-reviews {
   top: -7px;
   margin-bottom: .5em;
 }
-/* line 27, sass/_partials/_aesthetics.scss */
+/* line 30, sass/_partials/_aesthetics.scss */
 .atf .amazon-reviews .amazon-logo {
   top: 8px;
 }
