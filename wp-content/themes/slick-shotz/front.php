@@ -8,14 +8,14 @@ get_header();
 	<div class="container">
 		<h1 class="text-center white-text bold mb-4">The <span class="orange-text">Only</span> Legal-to-Carry Flask!</h1>
 		<div class="column col-12 col-md-6">
-			<img src="http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/atf-image.jpg" class="img-responsive mb-1" />
+			<img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/05/atf-image.jpg" class="img-responsive mb-1" />
 			<p class="amazon-reviews text-center">
 				<i class="fa fa-star"></i>
 				<i class="fa fa-star"></i>
 				<i class="fa fa-star"></i>
 				<i class="fa fa-star"></i>
 				<span class="white-text">on</span>
-				<img src="http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/amazon_logo.png" class="img-responsive amazon-logo"
+				<img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/05/amazon_logo.png" class="img-responsive amazon-logo"
 			</p>
 		</div><!--end column-->
 		<div class="column col-12 col-md-6">
@@ -38,7 +38,7 @@ get_header();
 		<h3 class="mb-4">Easy as 1-2-3</h3>
 		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
-				<img src="http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/placeholder-image.jpg" class="img-responsive" />
+				<img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/07/step1.jpg" class="img-responsive" />
 				<span class="spacer-5 block">&nbsp;</span>
 				<h2 class="bold"><span class="orange-text">1.</span> Fill It</h2>
 				<span class="spacer-10 block">&nbsp;</span>
@@ -49,7 +49,7 @@ get_header();
 
 		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
-				<img src="http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/placeholder-image.jpg" class="img-responsive" />
+				<img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/07/step2.jpg" class="img-responsive" />
 				<span class="spacer-5 block">&nbsp;</span>
 				<h2 class="bold"><span class="orange-text">2.</span> Seal It</h2>
 				<span class="spacer-10 block">&nbsp;</span>
@@ -60,7 +60,7 @@ get_header();
 
 		<div class="column col-12 col-md-4">
 			<div class="padding-horizontal-15px">
-				<img src="http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/placeholder-image.jpg" class="img-responsive" />
+				<img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/07/step3.jpg" class="img-responsive" />
 				<span class="spacer-5 block">&nbsp;</span>
 				<h2 class="bold"><span class="orange-text">3.</span> Use It</h2>
 				<span class="spacer-10 block">&nbsp;</span>

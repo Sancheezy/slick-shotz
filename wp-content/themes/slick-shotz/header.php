@@ -92,7 +92,7 @@
 			<div class="container">
 				<div class="padding-horizontal-15px">
 					<div class="column col-5 col-md-2">
-						<a href="/" class="orange-text bold logo">
+						<a href="http://rogersanchize.com/dev/slick-shotz" class="orange-text bold logo">
 							<h2 class="headline">Slick Shotz</h2>
 						</a>
 					</div><!--end column-->
