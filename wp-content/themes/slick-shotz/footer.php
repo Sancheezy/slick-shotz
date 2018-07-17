@@ -35,10 +35,10 @@
 					<div class="padding-horizontal-15px">
 						<p class="mb-2 white-text">Follow Us:</p>
 						<a href="https://www.instagram.com/slickshotz/" target="_blank">
-							<i class="fa fa-facebook-square white-text fa-2x"></i>
+							<i class="fa fa-instagram white-text fa-2x"></i>
 						</a>
 						<a href="https://www.facebook.com/slickshotz/" target="_blank">
-							<i class="fa fa-instagram white-text fa-2x"></i>
+							<i class="fa fa-facebook-square white-text fa-2x"></i>
 						</a>	
 					</div>
 				</div>
