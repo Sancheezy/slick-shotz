@@ -26,7 +26,7 @@ get_header();
 					<li class="mb-3">Undectable by metal detectors, conveyor belts and even pat downs</li>
 					<li class="mb-3">100% Legal</li>
 				</ul>
-				<a href="/shop" class="button cta-button">Shop Now »</a>
+				<a href="http://rogersanchize.com/dev/slick-shotz/shop" class="button cta-button">Shop Now »</a>
 			</div>
 		</div><!--end column-->
 	</div><!--end container-->
