@@ -22,5 +22,7 @@ function deferLoadingScript(url, callback) {
     }
 }
 
-/* Defer loading of a script */
-deferLoadingScript('https://www.youtube.com/yts/jsbin/www-embed-player-vflhai0Ku/www-embed-player.js');
+/* Defer loading of a script with callback function */
+deferLoadingScript('https://www.youtube.com/yts/jsbin/www-embed-player-vflhai0Ku/www-embed-player.js', function() {
+  console.log('Done loading embed.min.js');
+});
