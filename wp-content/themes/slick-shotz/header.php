@@ -26,7 +26,7 @@
 	<?php wp_head(); ?>
 	<!-- end of wordpress head -->
 
-	<link rel="shortcut icon" href="http://blog.skinnyfit.com/wp-content/uploads/2017/12/favicon-32x32_c60fc2a8752b2cf2e64faa08ebfcc43a.png" />
+	<!-- <link rel="shortcut icon" href="" /> -->
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!-- media-queries.js (fallback) -->
