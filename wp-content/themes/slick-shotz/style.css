@@ -658,19 +658,23 @@ a {
 /* media queries */
 @media (max-width: 767px) {
   /* line 27, sass/_partials/_aesthetics.scss */
+  .atf .headline {
+    font-size: 1.35rem;
+  }
+  /* line 30, sass/_partials/_aesthetics.scss */
   .atf .atf-video {
     height: 220px;
   }
-  /* line 30, sass/_partials/_aesthetics.scss */
+  /* line 33, sass/_partials/_aesthetics.scss */
   .atf .headline {
     margin-bottom: .75em;
   }
-  /* line 33, sass/_partials/_aesthetics.scss */
+  /* line 36, sass/_partials/_aesthetics.scss */
   .atf .amazon-reviews {
     top: 0;
     margin-bottom: .75em;
   }
-  /* line 37, sass/_partials/_aesthetics.scss */
+  /* line 40, sass/_partials/_aesthetics.scss */
   .atf .amazon-reviews .amazon-logo {
     top: 8px;
   }
