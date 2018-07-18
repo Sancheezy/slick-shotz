@@ -8,7 +8,7 @@ get_header();
 	<div class="container">
 		<h1 class="headline text-center white-text bold mb-4">The <span class="orange-text">Only</span> Legal-to-Carry Flask!</h1>
 		<div class="column col-12 col-md-6">
-			<img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/05/atf-image.jpg" class="img-responsive mb-1" />
+			<!-- <img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/05/atf-image.jpg" class="img-responsive mb-1" /> -->
 			<iframe width="100%" height="315" src="https://www.youtube.com/embed/NxItyaob9x0?rel=0&amp;showinfo=0" frameborder="0" ></iframe>
 			<p class="amazon-reviews text-center">
 				<i class="fa fa-star"></i>

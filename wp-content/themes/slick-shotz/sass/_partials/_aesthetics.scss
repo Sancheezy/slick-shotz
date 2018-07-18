@@ -18,17 +18,18 @@
 }
 
 /* media queries */
-.atf {
+@media (max-width: 767px) {
+	.atf {
 
-	.headline {
-		margin-bottom: .75em;
-	}
-	.amazon-reviews {
-		top: -7px;
-		margin-bottom: .5em;
-
-		.amazon-logo {
-			top: 8px;
+		.headline {
+			margin-bottom: .75em;
 		}
-	}	
-}
+		.amazon-reviews {
+			top: 0;
+
+			.amazon-logo {
+				top: 8px;
+			}
+		}	
+	}
+}	
