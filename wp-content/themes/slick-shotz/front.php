@@ -8,16 +8,18 @@ get_header();
 	<div class="container">
 		<h1 class="headline text-center white-text bold mb-4">The <span class="orange-text">Only</span> Legal-to-Carry Flask!</h1>
 		<div class="column col-12 col-md-6">
-			<!-- <img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/05/atf-image.jpg" class="img-responsive mb-1" /> -->
-			<iframe width="100%" height="315" src="https://www.youtube.com/embed/NxItyaob9x0?rel=0&amp;showinfo=0" frameborder="0" ></iframe>
-			<p class="amazon-reviews text-center">
-				<i class="fa fa-star"></i>
-				<i class="fa fa-star"></i>
-				<i class="fa fa-star"></i>
-				<i class="fa fa-star"></i>
-				<span class="white-text">on</span>
-				<img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/05/amazon_logo.png" class="img-responsive amazon-logo"
-			</p>
+			<div class="padding-horizontal-15px">
+				<!-- <img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/05/atf-image.jpg" class="img-responsive mb-1" /> -->
+				<iframe class="atf-video" width="100%" src="https://www.youtube.com/embed/NxItyaob9x0?rel=0&amp;showinfo=0" frameborder="0" ></iframe>
+				<p class="amazon-reviews text-center">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<span class="white-text">on</span>
+					<img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/05/amazon_logo.png" class="img-responsive amazon-logo"
+				</p>
+			</div><!--end padding-->
 		</div><!--end column-->
 		<div class="column col-12 col-md-6">
 			<div class="padding-horizontal-15px">

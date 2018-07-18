@@ -1,10 +1,13 @@
 /* aesthetics.scss */
 .atf {
 
+	.atf-video {
+		height: 280px;
+	}
 	.amazon-reviews {
 		line-height: 1;
 		position: relative;
-		top: -10px;
+		top: -5px;
 
 		.amazon-logo {
 			width: 15%;
@@ -21,11 +24,15 @@
 @media (max-width: 767px) {
 	.atf {
 
+		.atf-video {
+			height: 220px;
+		}
 		.headline {
 			margin-bottom: .75em;
 		}
 		.amazon-reviews {
 			top: 0;
+			margin-bottom: .75em;
 
 			.amazon-logo {
 				top: 8px;
