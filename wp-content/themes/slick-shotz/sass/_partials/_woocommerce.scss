@@ -434,6 +434,11 @@
 }
 .woocommerce-customer-details {
 
+	.woocommerce-column__title,
+	.woocommerce-order-details__title {
+		border-bottom: solid 1px #ccc;
+		margin-bottom: .25em;
+	}
 	address {
 		line-height: 1.35;
 	}
@@ -524,6 +529,9 @@
 	}
 	.single-product {
 
+		.product_title {
+			margin-top: .25em;
+		}
 		.woocommerce-product-details__short-description {
 
 			ul {
@@ -582,6 +590,7 @@
 
 				input {
 					margin-top: .2em;
+					width: 35px;
 				}
 			}
 		}

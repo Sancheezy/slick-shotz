@@ -83,7 +83,7 @@
 						<li><i class="fa fa-cc-amex amex-blue"></i></li>
 						<li><i class="fa fa-cc-mastercard mc-blue"></i></li>
 						<li><i class="fa fa-cc-discover discover"></i></li>
-						<li class="orange-text">Free Shipping</li>
+						<li class="orange-text bold">Free Shipping</li>
 					</ul>
 				</div><!--end padding-->	
 			</div><!--end container-->
