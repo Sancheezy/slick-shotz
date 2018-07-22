@@ -90,4 +90,9 @@ add_filter( 'woocommerce_order_button_text', 'woo_custom_order_button_text' );
 function woo_custom_order_button_text() {
     return __( 'Complete My Order »', 'woocommerce' ); 
 }
+
+// Ship to a different address closed by default
+
+add_filter( 'woocommerce_ship_to_different_address_checked', '__return_false' );
+
 ?>
