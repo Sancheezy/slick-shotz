@@ -71,6 +71,9 @@ get_header();
 				<span class="spacer-30 block">&nbsp;</span>
 			</div>	
 		</div>
+		<div class="column col-12 col-md-12">
+			<a href="http://rogersanchize.com/dev/slick-shotz/shop" class="button cta-button chapter-cta">Shop Starter Kits »</a>
+		</div>
 	</div>
 </section>
 

@@ -15,3 +15,12 @@
 		background: $cta-orange-hover;
 	}
 }
+.chapter-cta {
+	width: 25%;
+    margin: 0 auto;
+}
+@media (max-width: 767px) {
+	.chapter-cta {
+		width: 100%;
+	}
+}

@@ -94,6 +94,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: #ff7421;
 }
 
+/* line 18, sass/_partials/_buttons.scss */
+.chapter-cta {
+  width: 25%;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  /* line 23, sass/_partials/_buttons.scss */
+  .chapter-cta {
+    width: 100%;
+  }
+}
 /* columns.scss */
 /* line 2, sass/_partials/_columns.scss */
 .column {
