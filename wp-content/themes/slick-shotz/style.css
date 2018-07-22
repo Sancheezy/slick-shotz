@@ -103,7 +103,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (max-width: 767px) {
   /* line 23, sass/_partials/_buttons.scss */
   .chapter-cta {
-    width: 100%;
+    width: 90%;
   }
 }
 /* columns.scss */
