@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: FAQS
+Template Name: Privacy Policy
 */
 get_header();
 ?>

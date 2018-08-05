@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: FAQS
+Template Name: Terms
 */
 get_header();
 ?>
