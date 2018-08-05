@@ -107,6 +107,17 @@
 /* single product styles */
 .single-product {
 
+	.dr-elements {
+
+		li {
+			display: inline-block;
+		    width: 45%;
+		    padding: .25em 0 .25em .25em;
+		    border: solid 1px #eee;
+		    color: $orange;
+		    margin-right: .5em;
+		}
+	}
 	.single-product-img {
 		text-align: center;
 
@@ -564,6 +575,13 @@
 	}
 	.single-product {
 
+		.dr-elements {
+			margin-top: .5em;
+
+			li {
+				font-size: .9rem;
+			}
+		}
 		.product_title {
 			margin-top: .25em;
 		}

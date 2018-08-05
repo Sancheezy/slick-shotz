@@ -43,6 +43,10 @@ if ( post_password_required() ) {
 
 	<div class="column col-12 col-md-7">
 		<div class="padding-horizontal-15px">
+			<ul class="dr-elements mb-3">
+				<li class="lt-grey-bg">Free Shipping</li>
+				<li class="lt-grey-bg">Money Back Guarantee</li>
+			</ul>
 			<div class="summary entry-summary">
 				<?php
 					/**
