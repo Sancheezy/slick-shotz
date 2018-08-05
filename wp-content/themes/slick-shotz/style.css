@@ -1189,7 +1189,7 @@ a {
   font-size: .9rem;
 }
 /* line 435, sass/_partials/_woocommerce.scss */
-.woocommerce-checkout .woocommerce-form-login .woocommerce-form__input woocommerce-form__input-checkbox {
+.woocommerce-checkout .woocommerce-form-login .woocommerce-form__input-checkbox {
   width: 15%;
   display: inline-block;
   position: relative;
