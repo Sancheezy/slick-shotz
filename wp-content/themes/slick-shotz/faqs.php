@@ -32,7 +32,7 @@ get_header();
 
 				<p class="mb-2">If you do not see your country listed for international shipping, email us at <b>info@slickshotz.com</b> to inquire about availability.</p>
 
-				<p class="mb-2">Please be aware that with international orders you may be liable for import and/or custom duties on your order. You will be responsible for paying these duties to release your order from customs upon arrival. These are not Collect On Duty (COD) charges, they are taxes and duties charged in your country and are not related to Slick Shotz specifically. All taxes and duties charged by customs of the destination country are the sole responsibility of the buyer and will not be refunded or reimbursed by Slick Shotz for</p>
+				<p class="mb-4">Please be aware that with international orders you may be liable for import and/or custom duties on your order. You will be responsible for paying these duties to release your order from customs upon arrival. These are not Collect On Duty (COD) charges, they are taxes and duties charged in your country and are not related to Slick Shotz specifically. All taxes and duties charged by customs of the destination country are the sole responsibility of the buyer and will not be refunded or reimbursed by Slick Shotz for any reason.</p>
 			</div>	
 		</div>
 	</div>
