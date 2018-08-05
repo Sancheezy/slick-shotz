@@ -428,6 +428,16 @@
 		p {
 			margin-bottom: .75em;
 		}
+		.cta-button {
+			width: 100%;
+			font-size: .9rem;
+		}
+		.woocommerce-form__input woocommerce-form__input-checkbox {
+			width: 15%;
+			display: inline-block;
+			position: relative;
+			top: 4px;
+		}
 	}
 }
 .woocommerce-cart {
@@ -436,16 +446,6 @@
 		clear: both;
 		position: relative;
 		top: 3em;
-	}
-	.cta-button {
-		width: 100%;
-		font-size: .9rem;
-	}
-	.woocommerce-form__input woocommerce-form__input-checkbox {
-		width: 15%;
-		display: inline-block;
-		position: relative;
-		top: 4px;
 	}
 }
 

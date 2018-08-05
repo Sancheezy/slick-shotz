@@ -1183,24 +1183,24 @@ a {
 .woocommerce-checkout .woocommerce-form-login p {
   margin-bottom: .75em;
 }
-
-/* line 435, sass/_partials/_woocommerce.scss */
-.woocommerce-cart .footer {
-  clear: both;
-  position: relative;
-  top: 3em;
-}
-/* line 440, sass/_partials/_woocommerce.scss */
-.woocommerce-cart .cta-button {
+/* line 431, sass/_partials/_woocommerce.scss */
+.woocommerce-checkout .woocommerce-form-login .cta-button {
   width: 100%;
   font-size: .9rem;
 }
-/* line 444, sass/_partials/_woocommerce.scss */
-.woocommerce-cart .woocommerce-form__input woocommerce-form__input-checkbox {
+/* line 435, sass/_partials/_woocommerce.scss */
+.woocommerce-checkout .woocommerce-form-login .woocommerce-form__input woocommerce-form__input-checkbox {
   width: 15%;
   display: inline-block;
   position: relative;
   top: 4px;
+}
+
+/* line 445, sass/_partials/_woocommerce.scss */
+.woocommerce-cart .footer {
+  clear: both;
+  position: relative;
+  top: 3em;
 }
 
 /* thank you page */
