@@ -94,7 +94,10 @@ get_header();
 		<header class="text-center">
 			<h1 class="bold">Get Social with #SlickShotz</h1>
 			<h3 class="mb-4">Share your photos on social media</h3>
-		</header>	
+		</header>
+		<div class="padding-horizontal-15px">
+			<?php echo do_shortcode('[instagram-feed]'); ?>
+		</div>
 	</div>
 </section>
 <?php
