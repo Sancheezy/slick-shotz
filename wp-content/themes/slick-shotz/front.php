@@ -73,7 +73,7 @@ get_header();
 		</div>
 		<div class="column col-12 col-md-12">
 			<div class="padding-horizontal-15px">
-				<a href="http://rogersanchize.com/dev/slick-shotz/shop" class="button cta-button chapter-cta">Shop Starter Kits »</a>
+				<a href="http://rogersanchize.com/dev/slick-shotz/shop" class="button cta-button chapter-cta">Shop Flask Kits »</a>
 			</div>	
 		</div>
 	</div>
