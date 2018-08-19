@@ -51,7 +51,7 @@
 			<div class="bottom-row text-center padding-vertical-2">
 				<ul class="security-seals">
 					<li><img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/05/norton_98px.png" class="img-responsive" /></li>
-					<!-- <li><img src="http://localhost:8888/slick-shotz/wp-content/uploads/2018/05/mcafee.png" class="img-responsive" /></li> -->
+					<li><img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/08/paypal-logo.jpg" class="img-responsive" /></li>
 					<li><img src="http://rogersanchize.com/dev/slick-shotz/wp-content/uploads/2018/05/truste_seal_v3.png" class="img-responsive" /></li>
 				</ul>
 			</div><!--end bottom row-->

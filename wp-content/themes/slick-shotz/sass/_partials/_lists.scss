@@ -53,6 +53,9 @@
 			padding: 0 .5em;
 		}
 	}
+	img {
+		border: 0;
+	}
 }
 
 /* media queries */
@@ -104,6 +107,7 @@
 
 			li {
 				width: 30%;
+				padding: 0 .25em;
 			}
 		}
 	}
