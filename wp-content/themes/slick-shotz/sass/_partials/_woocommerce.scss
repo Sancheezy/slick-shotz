@@ -22,7 +22,9 @@
 	border: solid 1px #ccc;
 	border-radius: 4px;
 }
-.footer img {}
+.woocommerce .footer img {
+	border: 0;
+}
 /* featured products on home page */
 .featured-products {
 	.woocommerce-loop-product__title {
